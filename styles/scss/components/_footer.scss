@@ -1,0 +1,60 @@
+@use '../variables';
+@use '../typography';
+
+.footer {
+  background-color: variables.$white-background;
+
+  .footer-content {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1.6rem;
+
+    .footer-section {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 100%;
+      padding: variables.$standart-paddig
+    }
+
+    .note {
+      p {
+        margin: 0;
+      }
+    }
+
+    .social {
+      display: flex;
+      flex-direction: column;
+
+      ul {
+        .icon {
+          display: block;
+          font-size: 2rem;
+          width: 1ch;
+          height: 1ch;
+          margin-right: 0.7rem;
+        }
+
+        a {
+          display: flex;
+          align-items: center;
+          text-decoration: none;
+          margin-bottom: .5rem;
+
+          &:hover {
+            .text {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+
+  }
+}

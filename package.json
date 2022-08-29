@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "sass": "sass ./styles/scss:./styles/css --watch"
+  },
+  "author": "mgrmars",
+  "devDependencies": {
+    "sass": "^1.54.5"
+  }
+}

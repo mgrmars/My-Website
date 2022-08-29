@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  word-wrap: break-word;
+  cursor: default;
+}
+
+button {
+  color: inherit;
+  text-align: inherit;
+  border: none;
+  margin: 0;
+  padding: 0;
+  background-color: inherit;
+}
+
+input {
+  color: inherit;
+  background-color: inherit;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  font: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+figure {
+  display: block;
+  width: 100%;
+}
+
+img {
+  width: 100%;
+}
